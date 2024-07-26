@@ -20,6 +20,7 @@ userAgentPool[9] = 'Mozilla/5.0 (Linux; Android 11; SM-G991B) AppleWebKit/537.36
 
 // Leave proxyPool blank if you will not be using proxies. Proxies should be UserPass auth. 
 let proxyPool = [];
+proxyPool[0] = 'host:port:username:password';
 
 
 // General function to launch browsers with parameters
